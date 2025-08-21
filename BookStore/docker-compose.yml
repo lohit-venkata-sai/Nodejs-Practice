@@ -1,0 +1,9 @@
+services:
+  postgres:
+    image: postgres:17.6
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_DB : Book-Store
+      POSTGRES_USER: Lohit
+      POSTGRES_PASSWORD: admin

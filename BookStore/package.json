@@ -4,7 +4,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start" : "node --watch src/index.js"
+    "start": "node --watch src/index.js"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +13,11 @@
   "dependencies": {
     "@types/express": "^5.0.3",
     "@types/node": "^24.3.0",
-    "express": "^5.1.0"
+    "@types/pg": "^8.15.5",
+    "dotenv": "^17.2.1",
+    "drizzle-kit": "^0.31.4",
+    "drizzle-orm": "^0.44.4",
+    "express": "^5.1.0",
+    "pg": "^8.16.3"
   }
 }
